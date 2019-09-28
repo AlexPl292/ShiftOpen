@@ -19,12 +19,8 @@ import com.intellij.openapi.wm.ToolWindowManager
 sealed class ShiftOpen(private val panelId: String) : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
         val project = e.project ?: return
-        ToolWindowManager.getInstance(project).getToolWindow(panelId)?.let {
-            if (it.isVisible) {
-                it.hide(null)
-            } else {
-                it.show(null)
-            }
+        ToolWindowManager.getInstance(project).getToolWindow(panelId)?.apply {
+            if (isVisible) hide(null) else show(null)
         }
     }
 }
