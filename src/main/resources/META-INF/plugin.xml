@@ -5,6 +5,8 @@
 
     <description>Open tool window without transfer focus into it</description>
 
+    <idea-version since-build="183.4284.148"/>
+
     <actions>
         <action id="dev.feedforward.shiftopen.MessagesShiftOpen" class="dev.feedforward.shiftopen.MessagesShiftOpen"
                 text="Messages Shift Open">

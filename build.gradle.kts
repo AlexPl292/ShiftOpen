@@ -12,4 +12,8 @@ repositories {
 
 intellij {
     version = "2019.2"
+    pluginName = "ShiftOpen"
+    updateSinceUntilBuild = false
+    downloadSources = true
+    instrumentCode = true
 }
