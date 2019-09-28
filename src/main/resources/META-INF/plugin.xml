@@ -1,0 +1,50 @@
+<idea-plugin>
+    <id>dev.feedforward.ShiftOpen</id>
+    <name>Shift Open</name>
+    <vendor email="alexpl292@gmail.com" url="http://www.feedforward.dev">Alex Plate</vendor>
+
+    <description>Open tool window without transfer focus into it</description>
+
+    <actions>
+        <action id="dev.feedforward.shiftopen.MessagesShiftOpen" class="dev.feedforward.shiftopen.MessagesShiftOpen"
+                text="Messages Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 0"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.ProjectShiftOpen" class="dev.feedforward.shiftopen.ProjectShiftOpen"
+                text="Project Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 1"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.FavoritesShiftOpen" class="dev.feedforward.shiftopen.FavoritesShiftOpen"
+                text="Favorites Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 2"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.FindShiftOpen" class="dev.feedforward.shiftopen.FindShiftOpen"
+                text="Find Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 3"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.RunShiftOpen" class="dev.feedforward.shiftopen.RunShiftOpen"
+                text="Run Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 4"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.DebugShiftOpen" class="dev.feedforward.shiftopen.DebugShiftOpen"
+                text="Debug Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 5"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.TodoShiftOpen" class="dev.feedforward.shiftopen.TodoShiftOpen"
+                text="Todo Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 6"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.StructureShiftOpen" class="dev.feedforward.shiftopen.StructureShiftOpen"
+                text="Structure Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 7"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.HierarchyShiftOpen" class="dev.feedforward.shiftopen.HierarchyShiftOpen"
+                text="Hierarchy Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 8"/>
+        </action>
+        <action id="dev.feedforward.shiftopen.VcsShiftOpen" class="dev.feedforward.shiftopen.VcsShiftOpen"
+                text="Vcs Shift Open">
+            <keyboard-shortcut keymap="$default" first-keystroke="control shift 9"/>
+        </action>
+    </actions>
+</idea-plugin>
