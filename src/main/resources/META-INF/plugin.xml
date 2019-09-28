@@ -3,7 +3,7 @@
     <name>Shift Open</name>
     <vendor email="alexpl292@gmail.com" url="http://www.feedforward.dev">Alex Plate</vendor>
 
-    <description>Open tool window without transfer focus into it</description>
+    <description>Open tool window without transfer focus into it.</description>
 
     <idea-version since-build="183.4284.148"/>
 
